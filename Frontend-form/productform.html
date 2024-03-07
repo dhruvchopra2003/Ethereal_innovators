@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+    
+</head>
+<body>
+  
+    <div class="form-container">
+        <div class="crushed">
+
+        <h1>Add Product</h1>
+        <!-- <form action="" enctype="multipart/form-data" class="form-data"> -->
+        <div class="form-data">
+            <div class="row">
+                <div class="input-data">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" maxlen="100">
+                </div>
+                <div class="input-data">
+                <label for="price">Price</label>
+                <input type="text" id="price" name="price">
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="input-data">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" class="text-area" maxlength="1000"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-data">
+                    <label for="image">Image</label>
+                    <!-- <input type="file" id="image" name="image" > -->
+                    <input type="text" id="image" name="image">
+                </div>
+                <div class="input-data">
+                    <label for="category">Category</label>
+                    <select id="category" name="category">
+                        <option value="electronics">Electronics</option>
+                        <option value="clothing">Clothing</option>
+                        <option value="home">Grocery</option>
+                        <option value="beauty">Beauty</option>
+                    </select>
+
+                </div>
+                <div class="row">
+                <div class="input-data">
+                    <input type="radio" id="certification" name="certification" value="certification">
+                    <label for="certification1">Have certification</label>
+                </div>
+                </div>
+
+                </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="Submit" class="btn" id="submit">
+            </div>
+        <!-- </form> -->
+    </div>
+    </div>
+</div>
+
+    
+    
+</body>
+</html>
+
